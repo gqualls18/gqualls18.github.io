@@ -39,7 +39,7 @@
 
 
 .blue {
-  color: #226fd5;
+  color: #C8102E;
   font-family: 'Verdana', sans-serif;
 }
 
@@ -61,14 +61,14 @@
   margin-top: 10px;
   font-family: 'Verdana', sans-serif;
   font-size: 130%;
-  color: #ffdd36;
+  color: #418FDE;
 }
 
 .content2 {
   margin-top: 10px;
   font-family: 'Verdana', sans-serif;
   font-size: 130%;
-  color: #ffdd36;
+  color: #418FDE;
 }
 
 .resume {
@@ -80,7 +80,7 @@
   padding-right: 15px;
   padding-top: 3.5px;
   padding-bottom: 3.5px;
-  background-color: #226fd5;
+  background-color: #C8102E;
   cursor: pointer;
   border: none;
   border-radius: 20px;
@@ -88,7 +88,7 @@
 }
 
 .resume:hover {
-  background-color: #ffdd36;
+  background-color: #418FDE;
   color: black;
 }
 
@@ -102,7 +102,7 @@
 
 a[href^="mailto:"] {
   font-family: 'Arial', sans-serif;
-  color: #226fd5;
+  color: #C8102E;
   font-size: 23px;
   font-weight: 500;
   text-decoration: none;
@@ -111,7 +111,7 @@ a[href^="mailto:"] {
 
 .email {
   font-family: 'Arial', sans-serif;
-  color: #226fd5;
+  color: #C8102E;
   font-weight: 500;
   font-size: 23px;
   padding-left: 9px;
@@ -127,7 +127,7 @@ a[href^="mailto:"] {
 
 .email:hover {
   background-color: black;
-  color: #ffdd36;
+  color: #418FDE;
 }
 
 .bottomRight {
@@ -138,12 +138,12 @@ a[href^="mailto:"] {
 }
 
 .image {
-  color: #226fd5;
+  color: #C8102E;
   font-size: 40px;
 }
 
 .image:hover {
-  color: #ffdd36;
+  color: #418FDE;
 }
 
 
@@ -171,14 +171,14 @@ a[href^="mailto:"] {
 }
 
 .navMenu a:hover {
-  color: #ffdd36;
+  color: #418FDE;
 }
 
 .navMenu .dot {
   position: center;
   width: 6.3px;
   height: 6.3px;
-  background: #226fd5;
+  background: #C8102E;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: translateX(0px);
@@ -284,14 +284,14 @@ a[href^="mailto:"] {
     margin-top: 10px;
     font-family: 'Verdana', sans-serif;
     font-size: 90%;
-    color: #ffdd36;
+    color: #418FDE;
   }
 
   .content2 {
     margin-top: 10px;
     font-family: 'Verdana', sans-serif;
     font-size: 90%;
-    color: #ffdd36;
+    color: #418FDE;
   }
 
   .resume {
@@ -305,7 +305,7 @@ a[href^="mailto:"] {
 
   a[href^="mailto:"] {
     font-family: 'Arial', sans-serif;
-    color: #226fd5;
+    color: #C8102E;
     font-size: 16.5px;
     font-weight: 500;
     text-decoration: none;
@@ -360,7 +360,7 @@ a[href^="mailto:"] {
   .bar1,
   .bar3,
   .bar2 :hover {
-    background-color: #ffdd36;
+    background-color: #418FDE;
   }
 
 
@@ -397,7 +397,7 @@ a[href^="mailto:"] {
   }
 
   .hamMenu a:hover {
-    color: #ffdd36;
+    color: #418FDE;
   }
 
 
