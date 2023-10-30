@@ -159,7 +159,7 @@ a[href^="mailto:"] {
 }
 
 .navMenu a {
-  color: #C8102E;
+  color: white;
   text-decoration: none;
   font-size: 120%;
   text-transform: uppercase;
