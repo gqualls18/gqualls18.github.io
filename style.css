@@ -335,7 +335,7 @@ a[href^="mailto:"] {
   .bar3 {
     width: 35px;
     height: 5px;
-    background-color: white;
+    background-color: #C8102E;
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -370,7 +370,7 @@ a[href^="mailto:"] {
     height: 100vh;
     position: absolute;
     overflow: hidden;
-    color: #C8102E;
+    color: white;
     background: black;
     z-index: 2;
     transition: transform 0.5s ease;
