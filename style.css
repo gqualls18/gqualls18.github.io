@@ -357,11 +357,6 @@ a[href^="mailto:"] {
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
-  .bar1,
-  .bar3,
-  .bar2 :hover {
-    background-color: white;
-  }
 
 
 
