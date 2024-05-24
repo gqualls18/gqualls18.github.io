@@ -370,7 +370,7 @@ a[href^="mailto:"] {
     height: 100vh;
     position: absolute;
     overflow: hidden;
-    color: #fff;
+    color: #C8102E;
     background: black;
     z-index: 2;
     transition: transform 0.5s ease;
