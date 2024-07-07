@@ -95,7 +95,7 @@
 .bottomLeft {
   font-family: 'Arial', sans-serif;
   position: absolute;
-  bottom: 8px;
+  bottom: 12px;
   left: 16px;
   font-size: 18px;
 }
@@ -255,9 +255,9 @@ a[href^="mailto:"] {
     text-align: center;
     vertical-align: middle;
     position: absolute;
-    margin-top: 0px;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -12%);
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -286,10 +286,18 @@ a[href^="mailto:"] {
   }
 
   .containerAbout {
-    line-height: 25pt;
-    top: 11%;
-    left: 20%;
-    transform: translate(-10%, 0%);
+    margin-top: 65px;
+    top: 0;
+    left: 30%;
+    transform: translate(-20%, 0%);
+    line-height: 30pt;
+  }
+  .containerProject {
+    margin-top: 65px;
+    top: 0;
+    left: 30%;
+    transform: translate(-20%, 0%);
+    line-height: 30pt;
   }
 
   .title {
@@ -418,25 +426,3 @@ a[href^="mailto:"] {
 
 }
 
-@media only screen and (max-width: 600px) {
-  .containerAbout {
-    text-align: left;
-    vertical-align: middle;
-    position: absolute;
-    top: 11%;
-    left: 10%;
-    transform: translate(-5%, 0%);
-    line-height: 20pt;
-  }
-
-  .containerProject {
-    text-align: left;
-    vertical-align: middle;
-    position: absolute;
-    top: 11%;
-    left: 10%;
-    transform: translate(-5%, 0%);
-    line-height: 20pt;
-  }
-
-}
