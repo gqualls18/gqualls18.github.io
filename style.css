@@ -21,7 +21,7 @@
   text-align: left;
   vertical-align: middle;
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 30pt;
@@ -31,7 +31,7 @@
   text-align: left;
   vertical-align: middle;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 30%;
   transform: translate(-20%, 0%);
   line-height: 30pt;
@@ -225,22 +225,24 @@ a[href^="mailto:"] {
 
 @media only screen and (max-width: 1200px) {
   .containerAbout {
-    top: 11%;
+    top: 0%;
     left: 30%;
     transform: translate(-20%, 0%);
     line-height: 30pt;
   }
 }
 
-@media only screen and (max-height: 500px) {
+@media only screen and (max-height: 700px) {
   .containerAbout {
-    margin-top: 70px;
+    margin-top: 100px;
+    top: 0;
     left: 30%;
     transform: translate(-20%, 0%);
     line-height: 30pt;
   }
   .containerProject {
-    margin-top: 50px;
+    margin-top: 100px;
+    top: 0;
     left: 30%;
     transform: translate(-20%, 0%);
     line-height: 30pt;
