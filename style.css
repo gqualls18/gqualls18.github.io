@@ -4,7 +4,7 @@
   padding: 0;
   font-family: 'Arial', sans-serif;
   scroll-behavior: smooth;
-  background-color: black;
+  background-color: rgb(28, 27, 27);
 
 }
 
@@ -31,7 +31,7 @@
   text-align: left;
   vertical-align: middle;
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 30%;
   transform: translate(-20%, 0%);
   line-height: 30pt;
@@ -39,20 +39,20 @@
 
 
 .blue {
-  color: #C8102E;
+  color: #50727B;
   font-family: 'Verdana', sans-serif;
 }
 
 
 .name {
-  color: white;
-  font-size: 500%;
+  color: rgba(199, 194, 186, 0.897);
+  font-size: 550%;
   font-weight: 600;
 }
 
 .title {
-  color: white;
-  font-size: 300%;
+  color: rgba(199, 194, 186, 0.897);
+  font-size: 310%;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -60,27 +60,27 @@
 .content {
   margin-top: 10px;
   font-family: 'Verdana', sans-serif;
-  font-size: 130%;
-  color: #418FDE;
+  font-size: 140%;
+  color: #50727B;
 }
 
 .content2 {
   margin-top: 10px;
   font-family: 'Verdana', sans-serif;
-  font-size: 130%;
-  color: #418FDE;
+  font-size: 140%;
+  color: #50727B;
 }
 
 .resume {
   font-family: 'Arial', sans-serif;
-  color: white;
-  font-weight: 500;
+  color: rgb(28, 27, 27);
+  font-weight: 600;
   font-size: 29px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 3.5px;
   padding-bottom: 3.5px;
-  background-color: #C8102E;
+  background-color: #50727B;
   cursor: pointer;
   border: none;
   border-radius: 20px;
@@ -88,8 +88,8 @@
 }
 
 .resume:hover {
-  background-color: #418FDE;
-  color: black;
+  background-color: rgba(199, 194, 186, 0.897);
+  color: rgb(28, 27, 27);
 }
 
 .bottomLeft {
@@ -102,7 +102,7 @@
 
 a[href^="mailto:"] {
   font-family: 'Arial', sans-serif;
-  color: #C8102E;
+  color: #50727B;
   font-size: 23px;
   font-weight: 500;
   text-decoration: none;
@@ -111,14 +111,14 @@ a[href^="mailto:"] {
 
 .email {
   font-family: 'Arial', sans-serif;
-  color: #C8102E;
-  font-weight: 500;
+  color: rgb(28, 27, 27);
+  font-weight: 650;
   font-size: 23px;
   padding-left: 9px;
   padding-right: 8px;
   padding-top: 1.5px;
   padding-bottom: 1.5px;
-  background-color: black;
+  background-color: #50727B;
   cursor: pointer;
   border: none;
   border-radius: 20px;
@@ -126,8 +126,8 @@ a[href^="mailto:"] {
 }
 
 .email:hover {
-  background-color: black;
-  color: #418FDE;
+  background-color: rgba(199, 194, 186, 0.897);
+  color: rgb(28, 27, 27);
 }
 
 .bottomRight {
@@ -138,12 +138,12 @@ a[href^="mailto:"] {
 }
 
 .image {
-  color: #C8102E;
+  color: #50727B;
   font-size: 40px;
 }
 
 .image:hover {
-  color: #418FDE;
+  color: rgba(199, 194, 186, 0.897);
 }
 
 
@@ -151,7 +151,7 @@ a[href^="mailto:"] {
 
 .navMenu {
   position: absolute;
-  margin-top: 10px;
+  margin-top: 17px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -159,26 +159,26 @@ a[href^="mailto:"] {
 }
 
 .navMenu a {
-  color: white;
+  color: #78A083;
   text-decoration: none;
-  font-size: 120%;
+  font-size: 150%;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 540;
   display: inline-block;
-  width: 85px;
+  width: 145px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .navMenu a:hover {
-  color: #418FDE;
+  color: rgba(199, 194, 186, 0.897);
 }
 
 .navMenu .dot {
   position: center;
-  width: 6.3px;
-  height: 6.3px;
-  background: #C8102E;
+  width: 6.9px;
+  height: 6.9px;
+  background: #50727B;
   border-radius: 50%;
   opacity: 0;
   -webkit-transform: translateX(0px);
@@ -188,32 +188,32 @@ a[href^="mailto:"] {
 }
 
 .navMenu a:nth-child(1):hover~.dot {
-  -webkit-transform: translateX(39px);
-  transform: translateX(39px);
+  -webkit-transform: translateX(68px);
+  transform: translateX(68px);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   opacity: 1;
 }
 
 .navMenu a:nth-child(2):hover~.dot {
-  -webkit-transform: translateX(129px);
-  transform: translateX(129px);
+  -webkit-transform: translateX(219px);
+  transform: translateX(219px);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   opacity: 1;
 }
 
 .navMenu a:nth-child(3):hover~.dot {
-  -webkit-transform: translateX(220px);
-  transform: translateX(220px);
+  -webkit-transform: translateX(368px);
+  transform: translateX(368px);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   opacity: 1;
 }
 
 .navMenu a:nth-child(4):hover~.dot {
-  -webkit-transform: translateX(322px);
-  transform: translateX(322px);
+  -webkit-transform: translateX(520px);
+  transform: translateX(520px);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   opacity: 1;
@@ -232,9 +232,15 @@ a[href^="mailto:"] {
   }
 }
 
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 500px) {
   .containerAbout {
-    top: 11%;
+    margin-top: 70px;
+    left: 30%;
+    transform: translate(-20%, 0%);
+    line-height: 30pt;
+  }
+  .containerProject {
+    margin-top: 50px;
     left: 30%;
     transform: translate(-20%, 0%);
     line-height: 30pt;
@@ -242,6 +248,14 @@ a[href^="mailto:"] {
 
   .title {
     text-align: center;
+  }
+  .container {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 0px;
+    left: 50%;
+    transform: translate(-50%, -12%);
   }
 }
 
@@ -254,7 +268,7 @@ a[href^="mailto:"] {
   }
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 860px){
   .navMenu {
     display: none;
   }
@@ -264,7 +278,7 @@ a[href^="mailto:"] {
   }
 
   .name {
-    color: white;
+    color: rgba(199, 194, 186, 0.897);
     font-size: 350%;
     font-weight: 600;
   }
@@ -283,15 +297,15 @@ a[href^="mailto:"] {
   .content {
     margin-top: 10px;
     font-family: 'Verdana', sans-serif;
-    font-size: 90%;
-    color: #418FDE;
+    font-size: 110%;
+    color: #50727B;
   }
 
   .content2 {
     margin-top: 10px;
     font-family: 'Verdana', sans-serif;
-    font-size: 90%;
-    color: #418FDE;
+    font-size: 110%;
+    color: #50727B;
   }
 
   .resume {
@@ -305,7 +319,7 @@ a[href^="mailto:"] {
 
   a[href^="mailto:"] {
     font-family: 'Arial', sans-serif;
-    color: #C8102E;
+    color: #50727B;
     font-size: 16.5px;
     font-weight: 500;
     text-decoration: none;
@@ -335,7 +349,7 @@ a[href^="mailto:"] {
   .bar3 {
     width: 35px;
     height: 5px;
-    background-color: white;
+    background-color: rgba(199, 194, 186, 0.897);
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -365,8 +379,8 @@ a[href^="mailto:"] {
     height: 100vh;
     position: absolute;
     overflow: hidden;
-    color: white;
-    background: black;
+    color: rgba(199, 194, 186, 0.897);
+    background: rgb(28, 27, 27);
     z-index: 2;
     transition: transform 0.5s ease;
 
@@ -376,7 +390,7 @@ a[href^="mailto:"] {
 
   .hamMenu a {
     font-family: 'Arial', sans-serif;
-    color: white;
+    color: rgba(199, 194, 186, 0.897);
     text-decoration: none;
     font-size: 30px;
     text-transform: uppercase;
@@ -392,7 +406,7 @@ a[href^="mailto:"] {
   }
 
   .hamMenu a:hover {
-    color: #418FDE;
+    color: #50727B;
   }
 
 
